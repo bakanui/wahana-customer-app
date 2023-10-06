@@ -87,7 +87,7 @@ export const SearchTiket = () => {
             provider.data.length > 0 ? 
                 <>
                     <div className="my-2 mt-8 ml-6 text-[18px] sm:text-[24px] font-bold">Search Result</div>
-                    <div className="flex flex-col items-center justify-center px-6">
+                    <div className="grid md:grid-cols-4 grid-cols-1 gap-6 items-center justify-center px-6">
                         {provider.data.map((item: any)=> {
                             return(
                                 <TiketComponent 
