@@ -9,7 +9,7 @@ export const SearchTiketHeader = () => {
     } = useContext(SearchTiketContext);
     
     return(
-        <div className="flex flex-col sm:flex-row items-center justify-between items-center">
+        <div className="flex flex-col sm:flex-row items-center justify-between">
             <div className="flex w-full sm:w-[200px] items-center justify-center border-2 border-secondary rounded-full p-2 px-8 hover:cursor-pointer">
                 <img src="/images/ship.png" className="w-[20px] h-[20px]"/>
                 <span className="font-medium ml-2">Ship Ticket</span>

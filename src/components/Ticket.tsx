@@ -21,7 +21,7 @@ export const Ticket = (props: ITicketProps) => {
                 <div className="bg-orange min-w-[100px] h-[80px] text-[white] flex items-center justify-center text-center text-sm">
                     {props.time} WITA
                 </div>
-                <div className="flex justify-center w-full flex-col p-3 w-[200px] bg-[url(/images/water-bg.png)] object-cover">
+                <div className="flex justify-center flex-col p-3 w-[200px] bg-[url(/images/water-bg.png)] object-cover">
                     <div>{props.dermagaAsal}</div>
                     <div>{props.dermagaTujuan}</div>
                 </div>
