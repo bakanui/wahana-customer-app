@@ -41,17 +41,17 @@ export const SelectTripDate = () => {
             {tripType == 'one_way' ? 
                 <div onClick={selectJourneyDate} className="rounded-[15px] bg-soft min-h-[120px] w-full sm:w-[25%] mt-2 sm:mt-0 sm:ml-6 p-4 flex justify-center flex-col hover:cursor-pointer">
                     <div className="text-xs text-slate-500">JOURNEY DATE</div>
-                    <div className="text-md">{parseDateIncludeHours(journeyDate || new Date(), true)}</div>
+                    <div className="text-md text-slate-600">{parseDateIncludeHours(journeyDate || new Date(), true)}</div>
                 </div>
                 : 
                 <div className="rounded-[15px] bg-soft min-h-[120px] w-full sm:w-[25%] sm:mt-0 mt-2 sm:ml-6 flex ">
                     <div onClick={selectJourneyDate} className="flex flex-col justify-center w-full px-3 hover:cursor-pointer">
                         <div className="text-xs text-slate-500">JOURNEY DATE</div>
-                        <div className="text-md">{parseDateIncludeHours(journeyDate || new Date(), true)}</div>
+                        <div className="text-md text-slate-600">{parseDateIncludeHours(journeyDate || new Date(), true)}</div>
                     </div>
                     <div onClick={selectReturnDate} className="flex flex-col justify-center w-full hover:cursor-pointer border-l-[1px] border-l-slate-800 ml-2 px-3 rounded-tr-[15px] rounded-br-[15px] bg-[#BCF3FC]">
                         <div className="text-xs text-slate-500">RETURN DATE</div>
-                        <div className="text-md">{parseDateIncludeHours(returnDate || new Date(), true)}</div>
+                        <div className="text-md text-slate-600">{parseDateIncludeHours(returnDate || new Date(), true)}</div>
                     </div>
                 </div>
             }

@@ -16,7 +16,7 @@ export const SetTraveler = () => {
         <>
             <div onClick={()=>setShowModal(true)} className="rounded-[15px] bg-soft min-h-[120px] w-full sm:w-[20%] sm:ml-6 mt-2 sm:mt-0 p-4 flex justify-center flex-col hover:cursor-pointer">
                 <div className="text-xs text-slate-500">PASSANGERS</div>
-                <div className="text-md">{passangers.total} Person{passangers.total > 1 ? 's': ''}</div>
+                <div className="text-md text-slate-600">{passangers.total} Person{passangers.total > 1 ? 's': ''}</div>
             </div>
             <CustomModal
                 modalIsOpen={showModal}
@@ -92,7 +92,7 @@ export const PassangersModal = (props: IPassangersModalPorps) => {
 
 
     return(
-        <div className="w-[80vw] sm:w-[50vw]">
+        <div className="w-[80vw] sm:w-[50vw] text-slate-500">
             <div className="flex justify-between items-center mb-8">
                 <div className="font-bold text-md">Input Passangers</div>
                 <div onClick={props.close} className="hover:cursor-pointer">

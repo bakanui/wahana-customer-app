@@ -26,7 +26,7 @@ export const Gallery = () => {
                 
             </div>
             <div className="w-full h-full flex flex-col sm:items-end items-center justify-center absolute bg-[linear-gradient(90deg,_rgba(255,255,255,0)_0%,_rgba(255,255,255,0.8)_80%,_rgba(255,255,255,0.8)_100%)]">
-                <div className="flex flex-col items-center sm:mr-40 justify-center">
+                <div className="flex flex-col items-center sm:mr-40 justify-center text-slate-800">
                     <div className="font-bold text-[40px] sm:text-[60px]">IMAGE GALLERY</div>
                     <div className="my-3 text-[20px] sm:text-[30px]">Most Recent Photo Collections</div>
                     <div className="bg-[black] h-[40px] w-[100px] flex items-center justify-center text-sm text-[white]">

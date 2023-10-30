@@ -4,7 +4,7 @@ import { YoutubeIcon } from "@/assets/images/YoutubeIcon";
 
 export const Footer = () => {
     return(
-        <div className="flex flex-col items-center justify-center my-24">
+        <div className="flex flex-col items-center justify-center my-24 text-slate-600">
             <img src="/images/logo-squeare-text.png" className="w-[140px] object-contain"/>
             <div className="flex flex-col sm:flex-row text-black w-[90%] sm:w-[40%] sm:justify-between items-center font-small text-[18px] my-20">
                 <div className="hover:cursor-pointer mb-3 sm:mb-0">BUY TICKET</div>
@@ -22,7 +22,7 @@ export const Footer = () => {
                 <YoutubeIcon />
             </div>
             <div className="text-[16px] sm:text-[20px] mt-20 w-[50%] text-center">
-                Design & Develop with ♡ by CV. MAIHARTA
+                Design & Develop with ♡ by <a href="https://www.maiharta.com" target="_blank">CV. MaiHarta</a>
             </div>
         </div>
     );

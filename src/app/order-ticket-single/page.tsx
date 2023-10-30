@@ -61,7 +61,7 @@ function OrderTicket() {
     e.preventDefault();
     if (validate()) {
       window.open(
-        `https://api.whatsapp.com/send?phone=+6285156621870&text=I want to book Ticket for ${
+        `https://api.whatsapp.com/send?phone=+6281949778822&text=I want to book Ticket for ${
           getItem?.tanggal
         } ${
           getItem?.tipeTrip === "round"

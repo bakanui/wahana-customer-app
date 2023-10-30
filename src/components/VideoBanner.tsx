@@ -6,7 +6,7 @@ export const VideoBanner = () => {
           GILI TRAWANGAN
         </h1>
       </div>
-      {/* <video src="/videos/main.mp4" className="w-full h-full object-cover mix-blend-overlay" loop muted autoPlay/> */}
+      <video src="/videos/main2.mp4" className="w-full h-full object-cover mix-blend-overlay" loop autoPlay/>
     </div>
   );
 };
